@@ -9,5 +9,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
 				password: "foo",
 				password_confirmation: "bar" } }
 		end
+	assert is_logged_in?
 	end
 end
