@@ -11,6 +11,9 @@ gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.7.2', require: false
 gem 'rails-controller-testing'
 gem 'bcrypt', '3.1.13'
+gem 'will_paginate', '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker', '2.1.2'
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
